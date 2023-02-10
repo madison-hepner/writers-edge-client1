@@ -1,0 +1,98 @@
+.media__road__img {
+    height: 200px;
+    /* margin-left:2em; */
+    width: 400px; 
+    max-width: 450px; 
+    max-height: 450px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.road_posts_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 3em;
+    padding-left: 6.5em;
+    padding-right: 20em;
+    display: flex;
+    align-content: center;
+    width: 77%;
+    height: 100%;
+    
+}
+.road_card, .road__card__grow {
+    display: flex;
+    padding-bottom: 3.5em;
+    padding-top: 2em;
+    padding-left: 3.5em;
+    width: 450px;
+    height:350px;
+    
+} 
+
+/* .road__card__grow { 
+    display: block;
+    width: 420px;
+    height:380px;
+    transition: all .09s ease-in-out; 
+    border-top:1px solid white;
+    border-bottom: 1px solid white;
+
+    } */
+
+.road__card__grow:hover { 
+    display: block;
+    transform: scale(1.011); 
+    }
+
+.img__road__box {
+    align-content: center;
+    width: 400px;
+    height: 380px;
+    background-color: white;
+}
+
+.img__road__container {
+    width: 75%;
+}
+.search__road__section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -3em;
+    margin-left: -5.5em;
+    width: 38em;
+    height: 30px;
+    border-radius: .5em;
+}
+.road__search {
+    background-color: silver !important;
+    padding-right: 10px;
+    width: 50%;
+    border-radius: .2em;
+    font-weight: 500;
+}
+
+.search__road__bar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 41px;
+    border-radius: .2em;
+    justify-content: space-between;
+}
+
+.road__filter {
+    display: flex;
+    width: 260px;
+}
+
+.road__hamburger {
+    margin-top: -.3em;
+    font-size: 38pt;
+    height: 40px;
+}
+
+.road_types_filter {
+    height: 20px;
+    width: 200px;
+}

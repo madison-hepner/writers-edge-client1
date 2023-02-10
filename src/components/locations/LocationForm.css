@@ -1,0 +1,141 @@
+
+.gameForm {
+    padding-left: 16em;
+    width: 65%;
+}
+
+
+.form__items {
+    width: auto;
+    align-items: justify;
+}
+
+.location_type, .location_id {
+    display: flex;
+    width: auto;
+}
+
+.location_title, .location_description, .location_img {
+    display: flex;
+    width: 650px;
+    justify-content: space-evenly;
+
+}
+
+.location {
+    margin-left: -5em;
+    padding-right: 5em;
+    color: black;
+    opacity: 60%;
+}
+
+.description {
+    margin-left: -5em;
+    padding-right: 1.6em;
+    color: black;
+    opacity: 60%;
+}
+
+.locationImg {
+    margin-left: -5.2em;
+    padding-right: 2em;
+    color: black;
+    opacity: 60%;
+}
+
+.location_name {
+    margin-left: -1.7em;
+    padding-right: 4em;
+    color: black;
+    opacity: 60%;
+
+}
+
+.location_type_label {
+    margin-left: -1.7em;
+    padding-right: 4em;
+    color: black;
+    opacity: 60%;
+
+}
+
+
+
+.location__title, .location__description, .location__img {
+    width: 400px;
+    height: 35px;
+    border: none;
+    border-radius: .4em;
+}
+
+.location__title:focus, .location__description:focus, .location__img:focus {
+    height: 45px;
+    /* background-color: whitesmoke; */
+    box-shadow:
+    0 0 30px 5px whitesmoke,
+    0 0 30px 5px whitesmoke,
+    0 0 30px 5px whitesmoke;
+}
+
+.location_select {
+    margin-left: .8em;
+    font-size: 10.5pt;
+    width: 120px;
+    padding: .2em;
+    background-color: white;
+    color: grey !important;
+    padding-top: .09em;
+    height: 35px;
+    width: 45.5%;
+    border: none;
+    border-radius: .2em;
+}
+
+.location_select:hover {
+    margin-left: .8em;
+    width: 120px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    color: grey;
+    font-weight: 600;
+    height: 35px;
+    width: 45.5%;
+    border: none;
+    border-radius: .2em;
+}
+
+.gameForm__title {
+    opacity: 60%;
+    margin-left: -10em;
+    color: black;
+}
+
+.btn__create {
+    padding-bottom: 2em;
+    font-size: 11pt;
+    margin-left: 50em;
+    padding: .2em;
+    background-color: transparent;
+    color:  grey !important;
+    padding-top: .09em;
+    font-weight: 600;
+    height: auto;
+    width: 110px;
+    border: none;
+    border-radius: .2em;
+}
+
+.btn__create:hover {
+    margin-left: 50em;
+    border-bottom: 2px solid grey;
+    color: white;
+    font-weight: 600;
+    height: auto;
+    width: 110px;
+    border-radius: .2em;
+}
+  
+  
+  
+  
+
